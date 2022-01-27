@@ -1,7 +1,7 @@
-
 # Created by https://www.toptal.com/developers/gitignore/api/windows,java,maven
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,java,maven
 
+.idea/
 ### Java ###
 # Compiled class file
 *.class

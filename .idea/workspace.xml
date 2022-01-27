@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbc67c8-1f7e-4f66-b6bd-faa5b540518d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/azure/azureSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+    <list default="true" id="5bbc67c8-1f7e-4f66-b6bd-faa5b540518d" name="Changes" comment="structure has been chanced.#1">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bordcomputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/device/CDDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/device/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/device/USBDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +38,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\ContinuousIntegration\Bordcomputer3\src\main\java\device" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ContinuousIntegration\Bordcomputer3" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -57,8 +54,16 @@
       <option name="presentableId" value="Default" />
       <updated>1642008603782</updated>
       <workItem from="1642008605720" duration="1417000" />
-      <workItem from="1643281634499" duration="1872000" />
+      <workItem from="1643281634499" duration="2245000" />
     </task>
+    <task id="LOCAL-00001" summary="structure has been chanced.#1">
+      <created>1643283556729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643283556730</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +80,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="structure has been chanced.#1" />
+    <option name="LAST_COMMIT_MESSAGE" value="structure has been chanced.#1" />
   </component>
 </project>
