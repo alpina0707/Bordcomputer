@@ -1,8 +1,8 @@
 import device.CDDevice;
 
 import java.io.FileReader;
- import java.util.Properties;
- import java.util.Scanner;
+import java.util.Properties;
+import java.util.Scanner;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
@@ -11,7 +11,7 @@ import java.lang.reflect.Method;
 public class Bordcomputer {
 	
 	
-	private String[]  className = new String[3];
+	private String[]  className = new String[2];
 	private int deviceNr = 0;
 	private int option;
 	private Class<?> cls;
@@ -24,11 +24,11 @@ public class Bordcomputer {
 		        properties.load(reader);
 		       
 		        className[deviceNr++] = properties.getProperty("CD");
-		        className[deviceNr++] = properties.getProperty("Radio");
+		        //className[deviceNr++] = properties.getProperty("Radio");
 		        className[deviceNr++] = properties.getProperty("USB");
 			    System.out.println(className[0]);
 			    System.out.println(className[1]);
-			    System.out.println(className[2]);
+			    //System.out.println(className[2]);
 		       deviceNr = -1;
 		       }catch (Exception e) {;
 		       e.printStackTrace();
@@ -37,7 +37,7 @@ public class Bordcomputer {
 	}
 	//*********************************
 	public void changeDevice() {
-		deviceNr = (deviceNr +1 )% 3;
+		deviceNr = (deviceNr +1 )% 2;
 		
 		try {
 			setDevice();

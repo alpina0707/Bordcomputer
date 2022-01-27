@@ -63,7 +63,7 @@ public class USBDevice implements Device {
 		//***************************************
 		public String[] getOptions() throws SecurityException, ClassNotFoundException {
 			
-			Method[] methods = cls.forName("USBDevice").getDeclaredMethods();
+			Method[] methods = cls.forName("device.USBDevice").getDeclaredMethods();
 			String[] sm = new String[methods.length];
 			int i = 0;
 			 for (Method m:methods) {
@@ -82,7 +82,7 @@ public class USBDevice implements Device {
 		//***************************************
 		public void chooseOption(int opt) throws RuntimeException, ReflectiveOperationException {
 			if(opt > 0 && opt<13 ) {
-				Method[] methods = cls.forName("CDDevice").getDeclaredMethods();
+				Method[] methods = cls.forName("device.CDDevice").getDeclaredMethods();
 				String[] sm = new String[methods.length];
 				switch(opt) {
 				case 1:
