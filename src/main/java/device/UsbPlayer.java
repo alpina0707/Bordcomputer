@@ -27,7 +27,7 @@ public class UsbPlayer implements Device {
 	}
 	
 	@Override
-	public void quiter() {
+	public void quieter() {
 		if(Lautstaerke > 0) {
 			Lautstaerke -= 1;
 		} else {
@@ -57,21 +57,16 @@ public class UsbPlayer implements Device {
 
 	@Override
 	public String getInfoText() {
-		return null;
+		return "Your USB-galleries";
 	}
 
 	@Override
-	public String[] getOptions() {
-		 String[] options = new String[3];
-		 for(int i=0;i<options.length;i++) {
-			 options[i]=Playlist.get(i);
-		 }
-		return options;
-	}
-
-	@Override
-	public void chooseOption(String opt) {	
-		this.playTrack=this.Playlist.get(Playlist.indexOf(opt));	
+	public String[] getItemList() {
+		String[] items = new String[Playlist.size()];
+		for(int i=0;i<items.length;i++) {
+			items[i]=Playlist.get(i);
+		}
+		return items;
 	}
 
 	@Override
