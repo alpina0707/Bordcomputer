@@ -60,6 +60,11 @@ public class CdPlayer implements Device {
 	}
 
 	@Override
+	public String[] getOptions() {
+		return new String[0];
+	}
+
+	@Override
 	public String[] getItemList() {
 		String[] items = new String[Playlist.size()];
 		for(int i=0;i<items.length;i++) {
